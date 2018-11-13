@@ -1,18 +1,20 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 学无止境，学以致用
+keywords: Liu Tao, lightjameslyy 
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是刘涛，喜欢闭关修炼，瞎折腾各种IT技术。
 
-仰慕「优雅编码的艺术」。
+我的座右铭是：「学无止境，学以致用」。
 
-坚信熟能生巧，努力改变人生。
+我的爱好：编程，摄影，吉他，篮球，羽毛球。
+
+感谢[马壮](https://mazhuang.org)兄弟分享的博客配置，我觉得这是一个适合程序员的博客框架。
 
 ## 联系
 

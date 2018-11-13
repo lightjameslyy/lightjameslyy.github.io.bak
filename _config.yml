@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: htps://lightjameslyy.github.io 
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: 闭关修炼的程序猿
+subtitle: "学无止境，学以致用"
+description: "lightjameslyy的博客"
+keywords: 闭关修炼的程序猿, lightjameslyy, Liu Tao
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Liu Tao
+organization: ICT
+organization_url: http://www.ict.ac.cn
+github_username: lightjameslyy
+location: Beijing, China
+email: lightjameslyy@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -67,7 +67,7 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-gems:
+plugins:
     - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline
@@ -76,12 +76,13 @@ gems:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
+    - jekyll-octicons
 collections:
     wiki:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: lightjameslyy/lightjameslyy.github.io
 
 # ---------------- #
 #      Comments    #
@@ -95,17 +96,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    # owner: mzlogin
+    # repo: blog-comments
+    # oauth:
+        # client_id: d2e1cbbd298958076462
+        # client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: lightjameslyy
+    repo: gitalk-blog-comments 
+    clientID: 3f359b998aecf8f755a4
+    clientSecret: b7ac710acb0ea44524c7d07bff11584d028f1465 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -122,4 +123,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-80186023-1
