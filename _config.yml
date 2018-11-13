@@ -101,18 +101,20 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "lightjames"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Happy programming ^_^"
+  location         : "Beijing"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
+      url: "mailto:lightjameslyy@gmail.com" 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
+      url: "https://lightjameslyy.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -122,6 +124,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
+      url: "https://github.com/lightjameslyy"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -138,6 +141,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
+      url: "https://github.com/lightjameslyy"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
