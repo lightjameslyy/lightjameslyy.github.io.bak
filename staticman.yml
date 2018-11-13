@@ -25,7 +25,8 @@ comments:
   # request.
   branch: "master"
 
-  commitMessage: "New comment by {fields.name}"
+  # commitMessage: "New comment by {fields.name}"
+  commitMessage: "New comment"
 
   # (*) REQUIRED
   #
@@ -62,6 +63,7 @@ comments:
 
   # Name of the site. Used in notification emails.
   # name: "Your Site"
+  name: "lightjameslyy.github.io"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -98,7 +100,7 @@ comments:
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
     enabled: true
-    siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
+    siteKey: "6LfranoUAAAAAKRA0Bs067sgAgkh6Axo-C_tHglx"
     # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
     # For more information, https://staticman.net/docs/encryption
-    secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
+    secret: "nAXvyjHSvS35fDt9Y9z2jn0p64QG0qTymqFEy+HKkuC1AsfszK9RLcxYawFMN9c77WS0xb7DAumRcSHln/iP6F+mSPA8vKeYuIjOIZ4M5bAznEoaeAZiHVr/06IT/NsxBcyF8wlzhKOOTsVciBN1dDjN7MMoM3Y29P/cfFWp6NI="
