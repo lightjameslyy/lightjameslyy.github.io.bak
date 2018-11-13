@@ -12,24 +12,25 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lazy Programmer's Blog"
+title                    : "lightjameslyy's Blog"
 title_separator          : "-"
-name                     : "lightjames"
-description              : "Take down how i become a better programmer."
+name                     : &name "Liu Tao" # &name is a YAML anchor which can be *referenced later
+description              : &description "Take down how i become a better programmer."
 url                      : "https://lightjameslyy.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : lightjameslyy/lightjameslyy.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 50
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "lightjameslyy" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -39,7 +40,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
+  branch                 : "master" # "master"
   commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
@@ -54,12 +55,18 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+
+# reCaptcha
+# Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
 reCaptcha:
-  siteKey                :
-  secret                 :
+  enabled                : true
+  siteKey                : "6LfranoUAAAAAKRA0Bs067sgAgkh6Axo-C_tHglx"
+# Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+# For more information, https://staticman.net/docs/encryption
+  secret                 : "nAXvyjHSvS35fDt9Y9z2jn0p64QG0qTymqFEy+HKkuC1AsfszK9RLcxYawFMN9c77WS0xb7DAumRcSHln/iP6F+mSPA8vKeYuIjOIZ4M5bAznEoaeAZiHVr/06IT/NsxBcyF8wlzhKOOTsVciBN1dDjN7MMoM3Y29P/cfFWp6NI=" 
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -71,46 +78,50 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+# https://www.google.com/webmasters/tools
+google_site_verification : "googleff01679be9cce07a.html" # Replace this with your ID, or delete
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "lightjameslyy"
 facebook:
-  username               :
+  username               : &facebook "lightjameslyy"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/lightjameslyy"
+    - "https://facebook.com/lightjameslyy"
 
 # Analytics
+# https://www.google.com/analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-80186023-1" # Replace this with your ID, or delete
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "lightjames"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : *name
+  avatar           : "/assets/images/site-logo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Happy programming ^_^"
-  location         : "Beijing"
-  email            :
+  location         : "Beijing, China"
+  email            : &email "lightjameslyy@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    # - label: "Email"
+      # icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-      url: "mailto:lightjameslyy@gmail.com" 
+      # url: "mailto:lightjameslyy@gmail.com" 
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -118,9 +129,11 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
+      url: "https://twitter.com/lightjameslyy"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+      url: "https://facebook.com/lightjameslyy"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
@@ -220,7 +233,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -231,7 +244,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - "jekyll-github-metadata"
+  - jekyll-github-metadata
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -290,6 +303,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
