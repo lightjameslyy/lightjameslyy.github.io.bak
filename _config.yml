@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lazy Programmer"
+title                    : "Lazy Programmer's Blog"
 title_separator          : "-"
 name                     : "lightjames"
 description              : "Take down how i become a better programmer."
@@ -218,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

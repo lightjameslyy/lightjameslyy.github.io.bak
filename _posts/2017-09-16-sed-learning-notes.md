@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "sed learning notes"
 date: 2017-09-14 23:27:45
 description: ""

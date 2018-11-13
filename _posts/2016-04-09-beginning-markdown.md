@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "beginning markdown"
 date: 2016-04-09 08:46:36
 description: ""

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "http status code"
 date: 2017-09-26
 description: ""

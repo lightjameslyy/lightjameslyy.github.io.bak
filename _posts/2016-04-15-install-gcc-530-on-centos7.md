@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "install gcc 5.3.0 on centos7"
 date: 2016-04-15 20:44:44
 description: ""

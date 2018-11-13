@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Qt 5.5.1 static compiling"
 date: 2016-04-21 23:16:17
 description: ""

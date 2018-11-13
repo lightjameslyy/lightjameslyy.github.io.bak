@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "create git remote repository and initiate it from local repository"
 date: 2016-12-13
 description: ""

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "file compression on Unix and Linux"
 description: ""
 date: 2016-10-24 13:56:10

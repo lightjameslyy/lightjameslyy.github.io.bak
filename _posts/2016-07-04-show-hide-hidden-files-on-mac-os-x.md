@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "show hide hidden files on mac os x"
 date: 2016-07-04 19:09:58
 description: ""

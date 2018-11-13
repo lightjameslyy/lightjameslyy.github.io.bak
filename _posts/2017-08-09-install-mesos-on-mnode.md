@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "install mesos on mnode"
 date: 2017-08-09
 description: ""
