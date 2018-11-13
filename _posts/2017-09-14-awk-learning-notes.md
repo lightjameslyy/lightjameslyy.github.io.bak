@@ -5,6 +5,7 @@ description: ""
 date: 2017-09-14 13:25:26
 category: linux
 tags: [awk, regular expression]
+typora-root-url: ..
 ---
 
 # AWK Learning Notes
@@ -21,7 +22,7 @@ tags: [awk, regular expression]
 
 ### Summary of Patterns
 
-![000001]({{site.url}}/assets/image/000001.png)
+![000001](/assets/image/000001.png)
 
 ### String-Matching Patterns
 
